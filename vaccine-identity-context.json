@@ -1,1 +1,66 @@
-kannan
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "vax": "https://example.org/vaccine-context#",
+
+    "VaccinationCertificate": {
+      "@id": "vax:VaccinationCertificate"
+    },
+
+    "VerifiableCredential": {
+      "@id": "https://www.w3.org/2018/credentials#VerifiableCredential"
+    },
+
+    "familyName": "schema:familyName",
+
+    "givenName": "schema:givenName",
+
+    "familyNameTransliterated": "vax:familyNameTransliterated",
+
+    "givenNameTransliterated": "vax:givenNameTransliterated",
+
+    "dateOfBirth": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+
+    "vaccinations": {
+      "@id": "vax:vaccinations",
+      "@container": "@set"
+    },
+
+    "targetDisease": "vax:targetDisease",
+
+    "vaccineOrProphylaxis": "vax:vaccineOrProphylaxis",
+
+    "medicinalProduct": "schema:drug",
+
+    "manufacturer": "schema:manufacturer",
+
+    "doseNumber": {
+      "@id": "vax:doseNumber",
+      "@type": "xsd:integer"
+    },
+
+    "totalSeriesOfDoses": {
+      "@id": "vax:totalSeriesOfDoses",
+      "@type": "xsd:integer"
+    },
+
+    "vaccinationDate": {
+      "@id": "vax:vaccinationDate",
+      "@type": "xsd:date"
+    },
+
+    "countryOfVaccination": "schema:addressCountry",
+
+    "certificateIssuer": "schema:issuer",
+
+    "certificateIdentifier": "schema:identifier"
+  }
+}
