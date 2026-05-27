@@ -1,8 +1,6 @@
 {
   "@context": {
     "@version": 1.1,
-    "@protected": true,
-    "type": "@type",
     "schema": "https://schema.org/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
 
@@ -10,10 +8,6 @@
 
     "VaccinationCertificate": {
       "@id": "vax:VaccinationCertificate"
-    },
-
-    "VerifiableCredential": {
-      "@id": "https://www.w3.org/2018/credentials#VerifiableCredential"
     },
 
     "familyName": "schema:familyName",
