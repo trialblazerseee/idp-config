@@ -10,6 +10,11 @@
       "@id": "vax:VaccinationCertificate"
     },
 
+    "name": {
+      "@id": "vax:name",
+      "@container": "@set"
+    },
+    
     "familyName": "schema:familyName",
 
     "givenName": "schema:givenName",
