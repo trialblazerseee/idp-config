@@ -10,6 +10,8 @@
       "@id": "vax:VaccinationCertificate"
     },
 
+    "version": "vax:version",
+    
     "name": {
       "@id": "vax:name",
       "@container": "@set"
