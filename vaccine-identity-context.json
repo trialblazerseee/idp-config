@@ -32,7 +32,9 @@
 
     "nationalIdType": "vax:nationalIdType",
 
-    "vaccination": "vax:vaccination",
+    "vaccination": {
+          "@id": "vax:vaccination"
+    },
 
     "batchOrIdentifier": "vax:batchOrIdentifier",
 
