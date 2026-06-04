@@ -36,8 +36,8 @@
 
     "batchOrIdentifier": "vax:batchOrIdentifier",
 
-    "dateOfVaccination": {
-      "@id": "vax:dateOfVaccination",
+    "vaccinationDate": {
+      "@id": "vax:vaccinationDate",
       "@type": "xsd:date"
      },
 
