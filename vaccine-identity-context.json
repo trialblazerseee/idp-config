@@ -10,55 +10,39 @@
       "@id": "vax:VaccinationCertificate"
     },
 
-    "version": "vax:version",
+    "issuingCountry": "vax:issuingCountry",
 
-    "name": "vax:name",
+    "issuedAt": "vax:issuedAt",
+
+    "healthCertificate": "vax:healthCertificate",
     
-    "familyName": "schema:familyName",
+    "name": "schema:name",
 
-    "givenName": "schema:givenName",
-
-    "familyNameTransliterated": "vax:familyNameTransliterated",
-
-    "givenNameTransliterated": "vax:givenNameTransliterated",
+    "sex": "vax:sex",
 
     "dateOfBirth": {
       "@id": "schema:birthDate",
       "@type": "xsd:date"
     },
+    
+    "nationalId": "vax:nationalId",
 
-    "vaccinations": {
-      "@id": "vax:vaccinations",
+    "nationalIdType": "vax:nationalIdType",
+
+    "vaccination": {
+      "@id": "vax:vaccination",
       "@container": "@set"
     },
 
-    "targetDisease": "vax:targetDisease",
+    "batchOrIdentifier": "vax:batchOrIdentifier",
 
-    "vaccineOrProphylaxis": "vax:vaccineOrProphylaxis",
+    "dateOfVaccination": "vax:dateOfVaccination",
 
-    "medicinalProduct": "schema:drug",
+    "vaccineProduct": "vax:vaccineProduct",
 
-    "manufacturer": "schema:manufacturer",
-
-    "doseNumber": {
-      "@id": "vax:doseNumber",
-      "@type": "xsd:integer"
-    },
-
-    "totalSeriesOfDoses": {
-      "@id": "vax:totalSeriesOfDoses",
-      "@type": "xsd:integer"
-    },
-
-    "vaccinationDate": {
-      "@id": "vax:vaccinationDate",
+    "validFrom": {
+      "@id": "vax:validFrom",
       "@type": "xsd:date"
-    },
-
-    "countryOfVaccination": "schema:addressCountry",
-
-    "certificateIssuer": "schema:issuer",
-
-    "certificateIdentifier": "schema:identifier"
+    }
   }
 }
