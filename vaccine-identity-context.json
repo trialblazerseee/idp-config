@@ -12,13 +12,16 @@
 
     "issuingCountry": "vax:issuingCountry",
 
-    "issuedAt": "vax:issuedAt",
+    "issuedAt": {
+      "@id": "vax:issuedAt",
+      "@type": "xsd:integer"
+    },
 
     "healthCertificate": "vax:healthCertificate",
     
     "name": "schema:name",
 
-    "sex": "vax:sex",
+    "sex": "schema:gender",
 
     "dateOfBirth": {
       "@id": "schema:birthDate",
@@ -29,14 +32,14 @@
 
     "nationalIdType": "vax:nationalIdType",
 
-    "vaccination": {
-      "@id": "vax:vaccination",
-      "@container": "@set"
-    },
+    "vaccination": "vax:vaccination",
 
     "batchOrIdentifier": "vax:batchOrIdentifier",
 
-    "dateOfVaccination": "vax:dateOfVaccination",
+    "dateOfVaccination": {
+      "@id": "vax:dateOfVaccination",
+      "@type": "xsd:date"
+     },
 
     "vaccineProduct": "vax:vaccineProduct",
 
