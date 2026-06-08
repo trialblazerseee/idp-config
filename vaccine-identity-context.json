@@ -52,7 +52,7 @@
     
     "vaccineProduct": "vax:vaccineProduct",
 
-    "vaccinationLocationEntity": "vax:vaccinationLocationEntity",
+    "validityPeriodEndDate": "vax:validityPeriodEndDate",
 
     "validFrom": {
       "@id": "vax:validFrom",
