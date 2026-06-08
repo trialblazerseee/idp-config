@@ -34,8 +34,9 @@
 
     "nationality": "vax:nationality",
 
-    "vaccination": {
-          "@id": "vax:vaccination"
+    "vaccinations": {
+      "@id": "vax:vaccinations",
+      "@container": "@set"
     },
 
     "batchOrIdentifier": "vax:batchOrIdentifier",
