@@ -32,18 +32,26 @@
 
     "nationalIdType": "vax:nationalIdType",
 
+    "nationality": "vax:nationality",
+
     "vaccination": {
           "@id": "vax:vaccination"
     },
 
     "batchOrIdentifier": "vax:batchOrIdentifier",
 
+    "certificateNumber": "vax:certificateNumber",
+    
     "vaccinationDate": {
       "@id": "vax:vaccinationDate",
       "@type": "xsd:date"
      },
 
+    "certificateIssuer": "vax:certificateIssuer",
+    
     "vaccineProduct": "vax:vaccineProduct",
+
+    "vaccinationLocationEntity": "vax:vaccinationLocationEntity",
 
     "validFrom": {
       "@id": "vax:validFrom",
