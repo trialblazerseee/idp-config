@@ -12,7 +12,7 @@
 
     "version": "vax:version",
 
-    "name": "vax:name",
+    "name": "schema:name",
     
     "familyName": "schema:familyName",
 
@@ -36,7 +36,7 @@
 
     "vaccineOrProphylaxis": "vax:vaccineOrProphylaxis",
 
-    "medicinalProduct": "schema:drug",
+    "medicinalProduct": "vax:medicinalProduct",
 
     "manufacturer": "schema:manufacturer",
 
