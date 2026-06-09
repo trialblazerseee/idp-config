@@ -75,7 +75,7 @@
     "validFrom": {
       "@id": "vax:validFrom",
       "@type": "xsd:date"
-    }
+    },
 
     "expirationTime": {
       "@id": "vax:expirationTime",
