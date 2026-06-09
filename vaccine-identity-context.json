@@ -39,6 +39,24 @@
       "@container": "@set"
     },
 
+    "data": {
+      "@id": "vax:data",
+      "@container": "@set"
+    },
+
+    "url": "vax:url",
+
+    "flag": "vax:flag",
+
+    "exp": {
+      "@id": "vax:exp",
+      "@type": "xsd:date"
+     },
+
+    "key": "vax:key",
+
+    "label": "vax:label",
+    
     "batchOrIdentifier": "vax:batchOrIdentifier",
 
     "certificateNumber": "vax:certificateNumber",
@@ -58,5 +76,10 @@
       "@id": "vax:validFrom",
       "@type": "xsd:date"
     }
+
+    "expirationTime": {
+      "@id": "vax:expirationTime",
+      "@type": "xsd:date"
+     },
   }
 }
