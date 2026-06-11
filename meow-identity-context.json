@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "vax": "https://example.org/vaccine-context#",
+
+    "issuingCountry": "vax:issuingCountry",
+
+    "issuedAt": {
+      "@id": "vax:issuedAt",
+      "@type": "xsd:integer"
+    },
+
+    "name": "schema:name",
+
+    "sex": "schema:gender",
+
+    "dateOfBirth": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    
+    "nationalId": "vax:nationalId",
+
+    "nationalIdType": "vax:nationalIdType",
+
+    "medications": {
+      "@id": "vax:medications",
+      "@container": "@set"
+    },
+
+    "dosage": "vax:dosage",
+
+    "dateAdministered": {
+      "@id": "vax:dateAdministered",
+      "@type": "xsd:date"
+     },
+
+    "effectiveEndDate": {
+      "@id": "vax:effectiveEndDate",
+      "@type": "xsd:date"
+     },
+
+    "effectiveStartDate": {
+      "@id": "vax:effectiveStartDate",
+      "@type": "xsd:date"
+     },
+    
+    "medicationCode": "vax:medicationCode",
+
+    "reason": "vax:reason",
+
+    "expirationTime": {
+      "@id": "vax:expirationTime",
+      "@type": "xsd:date"
+     }
+  }
+}
