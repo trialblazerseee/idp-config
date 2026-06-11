@@ -6,6 +6,8 @@
 
     "vax": "https://example.org/vaccine-context#",
 
+    "credentialType" : "vax:credentialType",
+    
     "issuingCountry": "vax:issuingCountry",
 
     "issuedAt": {
@@ -54,7 +56,7 @@
 
     "expirationTime": {
       "@id": "vax:expirationTime",
-      "@type": "xsd:date"
+      "@type": "xsd:integer"
      }
   }
 }
