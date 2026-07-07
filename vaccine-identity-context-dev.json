@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "@version": 1.1,
+
+    "vhl": "https://example.org/verifiable-health-link#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "credentialType": "vhl:credentialType",
+
+    "claims": "vhl:claims",
+
+    "-260": {
+      "@id": "vhl:healthLink"
+    },
+
+    "5": {
+      "@id": "vhl:manifest",
+      "@container": "@set"
+    },
+
+    "1": {
+      "@id": "vhl:issuer"
+    },
+
+    "4": {
+      "@id": "vhl:expirationTime",
+      "@type": "xsd:integer"
+    },
+
+    "6": {
+      "@id": "vhl:issuedAt",
+      "@type": "xsd:integer"
+    },
+
+    "u": {
+      "@id": "vhl:url"
+    },
+
+    "flag": {
+      "@id": "vhl:flag"
+    },
+
+    "exp": {
+      "@id": "vhl:exp",
+      "@type": "xsd:integer"
+    },
+
+    "key": {
+      "@id": "vhl:key"
+    },
+
+    "label": {
+      "@id": "vhl:label"
+    }
+  }
+}
