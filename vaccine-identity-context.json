@@ -80,6 +80,8 @@
     "expirationTime": {
       "@id": "vax:expirationTime",
       "@type": "xsd:date"
-     }
+     },
+    
+    "qrCode": "vax:qrCode"
   }
 }
