@@ -31,7 +31,7 @@
   "@context": {
     "identityQRCode": "vax:identityQRCode",
     "faceQRCode": "vax:faceQRCode",
-    "UIN": "vax:UIN",
+    "UINQRCode": "vax:UINQRCode",
     "addressQRCode": "vax:addressQRCode"
   }
 }
