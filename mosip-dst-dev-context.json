@@ -25,15 +25,10 @@
 "city": "vax:city",
 "preferredLang": "vax:preferredLang",
 "UIN": "vax:UIN",
-
-"claim169": {
-  "@id": "vax:claim169",
-  "@context": {
-    "identityQRCode": "vax:identityQRCode",
-    "faceQRCode": "vax:faceQRCode",
-    "UINQRCode": "vax:UINQRCode",
-    "addressQRCode": "vax:addressQRCode"
-  }
-}
+"claim169": "vax:claim169",
+"identityQRCode": "vax:identityQRCode",
+"faceQRCode": "vax:faceQRCode",
+"UINQRCode": "vax:UINQRCode",
+"addressQRCode": "vax:addressQRCode"  
 }
 }
