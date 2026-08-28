@@ -1,26 +1,39 @@
 {
-  "@context": {
-    "@version": 1.1,
-    "schema": "https://schema.org/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "vax": "https://example.org/mosip-dst-dev-context#",
+"@context": {
+"@version": 1.1,
+"schema": "https://schema.org/",
+"xsd": "http://www.w3.org/2001/XMLSchema#",
+"vax": "https://example.org/mosip-dst-dev-context#",
 
-    "lastName" : "schema:name",
-    "firstName" : "schema:name",
-    "gender" : "schema:gender",
-    "phone" : "schema:telephone",
-    "postalCode" : "schema:postalCode",
-    "addressLine1" : "schema:address",
-    "addressLine2" : "schema:address",
-    "dateOfBirth": {
-          "@id": "schema:birthDate",
-          "@type": "xsd:date"
-    },
-    "email" : "schema:email",
-    "face" : "schema:photo",
-    "city": "vax:city",
-    "preferredLang" : "vax:preferredLang",
-    "UIN" : "vax:UIN",
-    "claim169" : "vax:claim169"
+"lastName": "schema:familyName",
+"firstName": "schema:givenName",
+"gender": "schema:gender",
+"phone": "schema:telephone",
+"postalCode": "schema:postalCode",
+
+"addressLine1": "schema:streetAddress",
+"addressLine2": "schema:streetAddress",
+
+"dateOfBirth": {
+  "@id": "schema:birthDate",
+  "@type": "xsd:date"
+},
+
+"email": "schema:email",
+"photo": "schema:photo",
+
+"city": "vax:city",
+"preferredLang": "vax:preferredLang",
+"UIN": "vax:UIN",
+
+"claim169": {
+  "@id": "vax:claim169",
+  "@context": {
+    "identityQRCode": "vax:identityQRCode",
+    "faceQRCode": "vax:faceQRCode",
+    "UIN": "vax:UIN",
+    "addressQRCode": "vax:addressQRCode"
   }
+}
+}
 }
