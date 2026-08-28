@@ -20,6 +20,7 @@
     "face" : "schema:photo",
     "city": "vax:city",
     "preferredLang" : "vax:preferredLang",
-    "UIN" : "vax:UIN"
+    "UIN" : "vax:UIN",
+    "claim169" : "vax:claim169"
   }
 }
